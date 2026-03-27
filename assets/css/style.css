@@ -1771,3 +1771,52 @@ p.form-message.success, p.form-message.error {
       cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */
+.project-video {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.project-video img {
+    width: 100%;
+    display: block;
+    transition: 0.3s;
+}
+
+.project-video img:hover {
+    transform: scale(1.03);
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: white;
+    background: rgba(0,0,0,0.6);
+    padding: 10px 15px;
+    border-radius: 50%;
+    pointer-events: none;
+}
+.project-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.project-card .mt-20 {
+    margin-top: auto;
+}
+.project-buttons {
+    margin-top: auto;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.project-buttons .main-btn {
+    flex: 1;
+    text-align: center;
+}
